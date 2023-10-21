@@ -1,0 +1,22 @@
+<html>
+  <body>
+    <h1>XLide Control</h1>
+      <span id="mySessionId">
+      </span>
+      <br><br>
+
+      <input id="togglId" type="checkbox">
+      <label for="toggle">Enabled</label>
+      <br><br>
+      <button type="button" onclick="openConnection()">Share my presentation!</button>
+
+      <span>Session ID: </span><br><br>
+      <input type="text" id="hostId" name="sessionId"><br><br>
+
+      <button id="joinButton" type="button">Join!</button>
+
+      <script src="peerjs.min.js"></script>
+      <script src="worker.js"></script>
+      <script src="logic.js"></script>
+  </body>
+</html>
