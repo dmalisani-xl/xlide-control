@@ -1,0 +1,3 @@
+#fake
+django==2.2
+fastapi==1.0
